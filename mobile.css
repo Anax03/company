@@ -1,0 +1,198 @@
+@media (max-width: 750px) {
+  /* Header */
+  header {
+    justify-content: space-evenly;
+  }
+  .contactUs {
+    display: none;
+  }
+  header h1,
+  .redexLogo {
+    margin-left: 0.4rem;
+  }
+
+  .fontAwsoneicons .fa-search {
+    display: none;
+  }
+
+  .fontAwsoneicons {
+    margin-right: 1rem;
+  }
+  /* Hamburger */
+
+  .hamb1 {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+
+  .hamb1 ul {
+    margin: 2rem 0;
+  }
+
+  .hamb2 {
+    position: relative;
+    width: 100%;
+    background: none;
+  }
+  .hamb2 .fa-search {
+    display: none;
+  }
+  .hamb2 #text {
+    display: none;
+  }
+  .hamb2 .fa-times {
+    position: absolute;
+
+    display: block;
+    right: 10px;
+    top: 10px;
+    margin-left: auto;
+  }
+
+  /* Section 1 */
+  .btn {
+    padding: 0;
+    margin: 1rem auto;
+    width: 80%;
+    height: 3rem;
+  }
+  #exploreBtn {
+    margin: 0;
+  }
+  /* Section 2 */
+
+  .mainFeatures h1 {
+    font-size: 1.4rem;
+  }
+
+  .firstLogos,
+  .secondLogos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 90%;
+    gap: 0.5rem;
+  }
+  /* SECTION 3 */
+  #section-3 p {
+    margin-left: 0.3rem;
+  }
+  /* Section 4 */
+  .Sites {
+    width: 95%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 4rem;
+  }
+
+  .imageSite {
+    margin-left: 0.5rem;
+    cursor: pointer;
+    width: 95%;
+    height: 410px;
+    -webkit-box-shadow: -4px 4px 15px -5px #000000;
+    box-shadow: -4px 4px 15px -5px #000000;
+  }
+
+  /* footer */
+
+  footer {
+    flex-direction: column;
+  }
+
+  .footerPart-1,
+  .footerPart-2 {
+    width: 70%;
+    margin: 3rem auto;
+  }
+  /* part 1 */
+
+  .footerPart-1 h1 {
+    margin-left: 3rem;
+  }
+
+  .footerP1-2 {
+    margin-top: 5rem;
+  }
+
+  /* part 2 */
+  .footerPart-2 {
+    margin: auto;
+    width: 80%;
+  }
+
+  .footerP2-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 2rem;
+  }
+
+  .footerP2-1 ul {
+    margin-right: 2rem;
+  }
+
+  .bground {
+    height: 600px;
+  }
+
+  .footerP2-2 {
+    text-align: center;
+    width: 100%;
+    flex-direction: column;
+    font-size: 0.8rem;
+    margin: 1rem auto;
+  }
+
+  .PrivacyCookie {
+    margin: 1rem 0;
+  }
+}
+
+@media (min-width: 751px) and (max-width: 1229px) {
+  /* Hmbrgr menu */
+
+  .hamb1 {
+    width: 50%;
+  }
+
+  .hamb2 {
+    width: 50%;
+  }
+  .Sites {
+    text-align: center;
+
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .footerPart-2 {
+    margin-left: 3rem;
+  }
+  .footerPart-1 {
+    margin-left: 6rem;
+  }
+}
+
+@media (min-width: 751px) and (max-width: 926px) {
+  header h1,
+  .redexLogo {
+    margin-left: 1rem;
+  }
+
+  .fontAwsoneicons {
+    margin-right: 1rem;
+  }
+  .footerP2-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 2rem;
+  }
+
+  .bground {
+    height: 700px;
+  }
+}

@@ -1,0 +1,531 @@
+/* General */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.4;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+li,
+ul,
+span,
+#redexwe {
+  list-style: none;
+  color: white;
+}
+/* Heading */
+
+/* Hamburger menu */
+
+.hambureger {
+  position: fixed;
+  display: flex;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+
+  background: rgb(0, 0, 0);
+  color: #000000;
+}
+
+#mrgTp {
+  margin-top: 0;
+  color: white;
+}
+
+.hamb1 {
+  background: white;
+  position: absolute;
+  height: 100vh;
+  overflow: scroll;
+  bottom: 0;
+  width: 30%;
+}
+
+.hamb1 ul {
+  margin-left: 6rem;
+  margin-top: 5rem;
+}
+
+.hamb1 ul li a {
+  font-weight: bold;
+  color: #3e4c88;
+  font-size: 1.8rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hamb1 ul li {
+  margin-bottom: 1rem;
+}
+
+.hamb2 {
+  display: flex;
+  justify-content: flex-end;
+  width: 70%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #1e2648;
+  opacity: 1;
+  padding: 1rem 5rem;
+}
+.hamb2 #text {
+  color: white;
+  width: 60%;
+  height: 2rem;
+  border: none;
+  border-bottom: 2px solid white;
+  text-decoration: none;
+  outline: 0;
+  background: transparent;
+  font-size: 2rem;
+}
+
+.hamb2 .fas {
+  color: rgb(250, 66, 66);
+  font-size: 2rem;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+#fatherLi {
+}
+#LittleUl {
+  border-left: 1px solid red;
+  padding-left: 1rem;
+  color: #000000;
+  margin: auto;
+}
+
+#LittleUl li {
+  color: #1e2648;
+  cursor: pointer;
+}
+
+/* End hamburger */
+header {
+  opacity: 0.9;
+  display: flex;
+  align-items: center;
+  height: 5rem;
+  width: 100%;
+  background: #262d4e;
+  color: white;
+  border-top: 3px solid #7952b3;
+  position: fixed;
+  z-index: 1;
+}
+/* H1 headr redex Logo */
+.redexLogo,
+header h1 {
+  background: #f12639;
+  margin-left: 6rem;
+  position: static;
+  margin-top: 1rem;
+  height: 5.5rem;
+  width: 11rem;
+  padding-top: 1.6rem;
+  text-align: center;
+  font-weight: lighter;
+  font-family: Segoe UI;
+  cursor: pointer;
+}
+
+/* Contact US */
+.contactUs {
+  display: flex;
+  margin-left: 4rem;
+  font-weight: bolder;
+}
+
+.contactUs #emailContact {
+  margin-left: 1rem;
+}
+
+.contactUs #phoneContact {
+  margin-left: 3rem;
+}
+
+/* Icons fontawsome */
+.fontAwsoneicons {
+  margin-left: auto;
+  margin-right: 6rem;
+  font-size: 1.9rem;
+  cursor: pointer;
+}
+
+/* Header End */
+
+/* Section 1 Redex */
+
+/* Image background and section */
+#firstSection {
+  background: url('./images/bg-15.jpg') center center/cover;
+
+  color: white;
+  border: 1px solid black;
+  width: 100%;
+  height: 1291px;
+  z-index: 0.7;
+}
+.opa {
+  background-color: rgba(27, 27, 131, 0.4);
+  border: 1px solid black;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Content of div */
+.content1 {
+  text-align: center;
+  display: flexbox;
+  padding: 1rem;
+  color: white;
+  animation: Firstone 1s forwards;
+}
+
+.content1 h1 {
+  font-size: 4rem;
+}
+
+.content1 p {
+  font-size: 1.5rem;
+}
+
+.twoButtons {
+  margin-top: 3rem;
+}
+
+.btn {
+  padding: 0.8rem 2.6rem;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 1.1rem;
+  font-family: Segoe UI;
+  border: none;
+}
+
+#exploreBtn:hover {
+  background: #f50018;
+}
+
+#purshaseBtn:hover {
+  background: #cfcdcd;
+}
+#exploreBtn {
+  color: white;
+  background: #f12639;
+  margin-right: 2rem;
+}
+
+#purshaseBtn {
+  background: #f5f5f5;
+}
+
+.fa-arrow-right {
+  color: black;
+  font-size: 0.7rem;
+  margin-left: 0.7rem;
+
+  display: inline-block;
+}
+
+/* Animation section 1 */
+
+@keyframes Firstone {
+  0% {
+    opacity: 0;
+    transform: scaleY(0);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Sections 2 LOGOS */
+#sectio-2Logos {
+  text-align: center;
+  margin-top: 8rem;
+}
+
+.mainFeatures {
+  margin: 3rem auto;
+  width: 60%;
+  text-align: center;
+}
+
+.mainFeatures h2 {
+  color: #f12639;
+  font-weight: bolder;
+}
+
+.mainFeatures h1 {
+  color: #1f2749;
+  font-weight: bolder;
+  font-size: 2.6rem;
+}
+
+.mainFeatures p {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+}
+
+.Logos {
+  margin: 4rem auto;
+  width: 100%;
+}
+
+.firstLogos,
+.secondLogos {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: 4rem auto;
+  font-size: 0.8rem;
+}
+
+.secondLogos {
+  justify-content: space-around;
+}
+
+.Logos .fas,
+.Logos .fab {
+  font-size: 3rem;
+  background: #f3f8fc;
+  padding-top: 1.7rem;
+  width: 8rem;
+  height: 7rem;
+  border-radius: 5rem;
+  border: none;
+  margin-bottom: 1rem;
+}
+
+/* Section 3 */
+
+#section-3 {
+  margin-top: 8rem;
+
+  padding: 8rem 0;
+  background: #f12639;
+  color: white;
+  text-align: center;
+}
+
+#section-3 h1 {
+  font-size: 1.8rem;
+  font-weight: bolder;
+  margin-bottom: 2rem;
+}
+
+#section-3 button {
+  background: #ffffff;
+  color: #f12639;
+  font-weight: bolder;
+  cursor: pointer;
+  border: none;
+  border-radius: 0.4rem;
+  font-size: 1rem;
+  padding: 1rem 1.6rem;
+  margin-bottom: 1rem;
+}
+
+#purshaseNow:hover {
+  color: #f00119;
+}
+
+#section-3 p {
+  font-size: 1.2rem;
+}
+
+/* Section-4 Sites projets */
+
+.section-4 {
+  margin-bottom: 3rem;
+}
+
+.section-4 h1 {
+  text-align: center;
+}
+.section-4 #demoPages,
+.section-4 h2 {
+  text-align: center;
+  font-family: Segoe UI;
+  font-weight: bolder;
+}
+
+.section-4 h2 {
+  margin-top: 8rem;
+  color: #f12639;
+}
+
+.section-4 #demoPages {
+  color: #1f2749;
+  font-size: 2rem;
+  margin-bottom: 4rem;
+}
+
+/* Display grid pour sites  */
+.Sites {
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+}
+
+.imageSite {
+  position: relative;
+  cursor: pointer;
+  width: 100%;
+  height: 410px;
+  -webkit-box-shadow: -4px 4px 15px -5px #000000;
+  box-shadow: -4px 4px 15px -5px #000000;
+}
+
+.imagee {
+  position: relative;
+  cursor: pointer;
+}
+
+/* Animation site  */
+
+.imagee:hover::after {
+  position: absolute;
+  background-color: #242a4a;
+  opacity: 0.9;
+  content: '';
+  top: 0;
+  right: 0;
+  left: 0;
+
+  bottom: 0;
+}
+
+.imagee:hover:before,
+.imagee:hover:before {
+  position: absolute;
+
+  opacity: 1;
+  content: '\f0c1';
+  font-family: 'Font Awesome 5 Free';
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2.5rem;
+  color: white;
+
+  font-weight: 900;
+  z-index: 1;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  justify-content: space-between;
+
+  background: #1f2749;
+}
+
+.footerPart-1,
+.footerPart-2 {
+  margin-top: 7rem;
+}
+/* Footer part 1 */
+.footerPart-1 {
+  background: #1f2749;
+  color: white;
+  margin-left: 10rem;
+  font-size: 0.8rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footerP1-1 h1 {
+  margin-bottom: 2.5rem;
+  font-weight: lighter;
+  font-size: 1.8rem;
+}
+
+#crystal {
+  margin-bottom: 1.5rem;
+}
+
+.phoneFooter .fas,
+.emailFooter .fas {
+  margin-right: 0.6rem;
+}
+
+.footerP1-2 {
+  margin-top: 10rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.footerP1-2 .fab {
+  font-size: 1.1rem;
+  margin-right: 1rem;
+}
+
+/* Footer part 2 */
+
+.footerPart-2 {
+  margin-left: 6rem;
+}
+
+.opacityBg {
+  position: absolute;
+  background-color: rgba(4, 4, 59, 0.8);
+  width: 100%;
+  height: 100%;
+}
+.bground {
+  position: relative;
+  background: url(./images/footer-bg.jpg) center center/cover;
+  width: 100%;
+  height: 520px;
+}
+.footerP2-1 {
+  display: flex;
+}
+
+.footerP2-1 ul {
+  margin-right: 7rem;
+}
+
+.footerP2-1 li {
+  margin-bottom: 0.8rem;
+}
+.footerP2-1 li:first-child {
+  margin-bottom: 3rem;
+  font-size: 1.5rem;
+}
+
+.footerP2-1 li a:hover,
+.footerP2-2 a:hover {
+  text-decoration: underline;
+}
+
+.footerP2-2 {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  margin-top: 6.7rem;
+  margin-right: 2rem;
+}
